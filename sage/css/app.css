@@ -40,7 +40,8 @@ nav li a {
     text-align: center;
 }
 
-.second-p {
+.second-p,
+.button {
     margin-top: 5%;
     text-align: center;
 }
