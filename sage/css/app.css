@@ -166,3 +166,15 @@ nav li a {
     margin-top: 2%;
     font-size: 1.2em;
 }
+
+.brown {
+    margin-top: 20%;
+    text-align: center;
+    background: #30282A;
+    height: 20vh;
+    color: #fff;
+}
+
+.brown p {
+    padding-top: 5%;
+}
