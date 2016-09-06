@@ -54,7 +54,7 @@ nav li a {
 
 .first {
     /*
-    color: #352D2F;
+    color: #605A5C;
     color: #F63C3C;
     color: #726D6E;
 */
@@ -74,10 +74,12 @@ nav li a {
 .infinity,
 .highlighted {
     height: 100vh;
+    background: #eee;
 }
 
 .infinity {
     background: #F63C3C;
+    color: #fff;
 }
 
 .ones {
@@ -91,12 +93,12 @@ nav li a {
 
 .white-one,
 .white-three {
-    background-color: #605A5C;
+    background-color: #352D2F;
     height: 30vh;
 }
 
 .white-two {
-    background-color: #352D2F;
+    background-color: #30282A;
     height: 30vh;
 }
 
@@ -104,10 +106,19 @@ nav li a {
     text-align: center;
 }
 
-.sage-image {
-    background-image: url("../imgs/sageBlackBigLogo.png");
+.historical,
+.history,
+.sagepic {
+    height: 85vh;
 }
 
+.history {
+    text-align: justify;
+    padding-left: 10%;
+}
+
+
+/*
 .icon-one {
     background-image: url("../imgs/2180.png");
 }
@@ -118,6 +129,25 @@ nav li a {
 
 .icon-three {
     background-image: url("../imgs/mail.png");
+}
+*/
+
+.icon-one,
+.icon-two,
+.icon-three,
+.icon-one-text,
+.icon-two-text,
+.icon-three-text {
+    width: 100%;
+    text-align: center;
+}
+
+.icon-one-text,
+.icon-two-text,
+.icon-three-text {
+    margin-top: 2%;
+    font-size: 1.8em;
+    color: #F63C3C;
 }
 
 .icon-four {
