@@ -72,7 +72,8 @@ nav li a {
 */
 
 .infinity,
-.highlighted {
+.highlighted,
+.service {
     height: 100vh;
     background: #eee;
 }
@@ -117,6 +118,10 @@ nav li a {
     padding-left: 10%;
 }
 
+.sagepic {
+    margin-bottom: 5%;
+}
+
 
 /*
 .icon-one {
@@ -135,41 +140,29 @@ nav li a {
 .icon-one,
 .icon-two,
 .icon-three,
+.icon-four,
+.icon-five,
+.icon-six,
+.icon-seven,
+.icon-eight,
+.icon-nine,
 .icon-one-text,
 .icon-two-text,
-.icon-three-text {
+.icon-three-text,
+.icon-four-text {
     width: 100%;
     text-align: center;
+    margin-top: 5%;
 }
 
 .icon-one-text,
 .icon-two-text,
 .icon-three-text {
-    margin-top: 2%;
     font-size: 1.8em;
     color: #F63C3C;
 }
 
-.icon-four {
-    background-image: url("../imgs/exclusive.png");
-}
-
-.icon-five {
-    background-image: url("../imgs/materialnretinadesign.png");
-}
-
-.icon-six {
-    background-image: url("../imgs/friendlycustomer.png");
-}
-
-.icon-seven {
-    background-image: url("../imgs/engaginguiux.png");
-}
-
-.icon-eight {
-    background-image: url("../imgs/handcrafted.png");
-}
-
-.icon-nine {
-    background-image: url("../imgs/fullyresponsive.png");
+.icon-four-text {
+    margin-top: 2%;
+    font-size: 1.2em;
 }
