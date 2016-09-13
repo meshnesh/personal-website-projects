@@ -11,3 +11,12 @@ $(function () {
         e.preventDefault();
     });
 });
+$(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+        $("nav").addClass("scrolling");
+    }
+    else {
+        $("nav").removeClass("scrolling");
+    }
+});
