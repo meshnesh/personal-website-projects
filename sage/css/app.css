@@ -127,16 +127,26 @@ nav.scrolling {
     margin-top: 20%;
 }
 
-.white-one,
+
+/*.white-one,*/
+
+/*
 .white-three {
     background-color: #352D2F;
     height: 30vh;
 }
+*/
 
+img {
+    max-width: 108%;
+}
+
+/*
 .white-two {
     background-color: #30282A;
     height: 30vh;
 }
+*/
 
 .projo {
     text-align: center;
