@@ -4,6 +4,12 @@ header {
     text-align: center;
 }
 
+h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+
 
 /****************************NAV BAR************************************/
 
@@ -106,85 +112,54 @@ nav.scrolling {
     position: relative;
 }
 
-.infinity,
-.highlighted,
-.service {
-    height: 100vh;
-    background: #eee;
+.facts {
+    margin-top: 5%;
 }
 
-.infinity {
-    background: #F63C3C;
+.factsp {
+    text-align: justify;
+}
+
+.servo {
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: 200;
+    color: #757575;
+}
+
+
+/*hiring*/
+
+.hire {
+    font-size: 2.9em;
+    font-weight: 800;
+    margin-top: 6%;
+}
+
+.brown {
+    margin-top: 20%;
+    text-align: center;
+    background: #30282A;
+    height: 40vh;
     color: #fff;
 }
 
-.ones {
-    margin-top: 20%;
+.hiring {
+    border: 2.5px solid #757575;
+    background: transparent;
+    margin-top: 0%;
+    width: 15%;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #757575;
 }
 
-.wake {
-    text-align: center;
-    margin-top: 20%;
+.done {
+    color: #000;
+    font-size: 0.7em;
+    font-weight: 100;
 }
-
-
-/*.white-one,*/
-
-/*
-.white-three {
-    background-color: #352D2F;
-    height: 30vh;
-}
-*/
-
-img {
-    max-width: 108%;
-}
-
-/*
-.white-two {
-    background-color: #30282A;
-    height: 30vh;
-}
-*/
-
-.projo {
-    text-align: center;
-}
-
-.historical,
-.history,
-.sagepic {
-    height: 85vh;
-}
-
-.history {
-    text-align: justify;
-    padding-left: 10%;
-}
-
-.sagepic {
-    margin-bottom: 5%;
-    /*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-url(../imgs/dev.jpg);*/
-    background-image: linear-gradient(rgba(30, 32, 38, 0.7), rgba(30, 30, 30, 0.7)), url(../imgs/hands.jpg);
-    background-size: cover;
-}
-
-
-/*
-.icon-one {
-    background-image: url("../imgs/2180.png");
-}
-
-.icon-two {
-    background-image: url("../imgs/105870.png");
-}
-
-.icon-three {
-    background-image: url("../imgs/mail.png");
-}
-*/
 
 .icon-one,
 .icon-two,
@@ -214,18 +189,6 @@ url(../imgs/dev.jpg);*/
 .icon-four-text {
     margin-top: 2%;
     font-size: 1.2em;
-}
-
-.brown {
-    margin-top: 20%;
-    text-align: center;
-    background: #30282A;
-    height: 20vh;
-    color: #fff;
-}
-
-.brown p {
-    padding-top: 5%;
 }
 
 .events-prog {
