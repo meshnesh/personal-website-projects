@@ -375,3 +375,9 @@ footer {
 .sending {
     width: 40%;
 }
+
+.formspree {
+    border: 2.5px solid transparent;
+    background: transparent;
+    border-bottom: #000 solid 1px;
+}
