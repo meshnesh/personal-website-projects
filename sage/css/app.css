@@ -10,6 +10,10 @@ h5 {
     text-align: left;
 }
 
+p {
+    font-weight: 200;
+}
+
 
 /****************************NAV BAR************************************/
 
@@ -167,6 +171,11 @@ nav.scrolling {
 .prjctimg {
     padding-bottom: 2%;
     padding-top: 2%;
+}
+
+.txtprjct {
+    margin-top: 10%;
+    text-align: justify;
 }
 
 .icon-one,
