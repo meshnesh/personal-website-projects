@@ -174,7 +174,7 @@ nav.scrolling {
 }
 
 .txtprjct {
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: justify;
 }
 
@@ -186,6 +186,15 @@ nav.scrolling {
     border: 2.5px solid transparent;
     background: #757575;
     color: #fff;
+}
+
+span {
+    color: #903;
+    font-size: 100px;
+    line-height: 60px;
+    /* padding-top: 4px; */
+    /* padding-left: 3px; */
+    font-family: Georgia;
 }
 
 .icon-one,
@@ -210,7 +219,7 @@ nav.scrolling {
 .icon-two-text,
 .icon-three-text {
     font-size: 1.8em;
-    color: #F63C3C;
+    color: #903;
 }
 
 .icon-four-text {
@@ -354,4 +363,15 @@ footer {
     padding-top: 2%;
     color: #605A5C;
     font-size: 1.2em;
+}
+
+
+/*form*/
+
+.actions {
+    list-style-type: none
+}
+
+.sending {
+    width: 40%;
 }
