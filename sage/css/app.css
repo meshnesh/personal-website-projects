@@ -178,6 +178,16 @@ nav.scrolling {
     text-align: justify;
 }
 
+.prct {
+    width: 40%;
+}
+
+.prct:hover {
+    border: 2.5px solid transparent;
+    background: #757575;
+    color: #fff;
+}
+
 .icon-one,
 .icon-two,
 .icon-three,
