@@ -1,7 +1,9 @@
+@import url('font-awesome.min.css');
 header {
     font-size: 2em;
     margin-top: 5%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h5 {
@@ -380,4 +382,16 @@ footer {
     border: 2.5px solid transparent;
     background: transparent;
     border-bottom: #000 solid 1px;
+}
+
+.icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
