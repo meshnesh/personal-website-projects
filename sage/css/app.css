@@ -49,6 +49,12 @@ nav li a:hover {
 
 .toggle-nav {
     display: none;
+    color: #903;
+}
+
+a:hover,
+a:focus {
+    color: #903;
 }
 
 .nav-mobile style {
@@ -395,3 +401,247 @@ footer {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+/****************************MEDIA QUERIES************************************/
+
+@media only screen and (max-width: 800px) {
+    .nav li {
+        font-size: 22px;
+        float: left;
+        margin-left: 15%;
+    }
+    .logo-img {
+        float: left;
+        width: 10%;
+    }
+    .first-p {
+        width: 100%;
+        margin-top: 35%;
+        font-size: 4rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p {
+        font-size: 2.3em;
+        font-weight: 400;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .progress,
+    .profile {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .offer {
+        width: 50%;
+        font-size: 1.2em;
+    }
+    .hiring {
+        width: 30%;
+        font-size: 1.8em;
+    }
+    .txtprjct {
+        font-size: 1.6em;
+    }
+    .prct {
+        width: 35%;
+        font-size: 1.3em;
+    }
+    .blg {
+        width: 65%;
+        margin-left: 17%;
+        font-size: 1.1em;
+    }
+    .final {
+        font-size: 1.5em;
+    }
+    .formspree {
+        font-size: 1.2em;
+        height: 5rem;
+    }
+    footer {
+        text-align: center;
+        padding-top: 2%;
+        color: #605A5C;
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    h5 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .toggle-nav {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 10px;
+        line-height: 30px;
+        color: color: #903;
+        font-size: 1.5em;
+    }
+    .toggle-nav:after {
+        content: ' Menu';
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .style-mobile {
+        background: #ffffff;
+        top: 51px;
+        position: absolute;
+        width: 100%;
+    }
+    .style-mobile li {
+        display: block;
+        width: 70%;
+        float: right;
+    }
+    .nav {
+        position: relative;
+        display: block;
+        float: none;
+        margin: 0em;
+    }
+    .logo-img {
+        float: left;
+        width: 15%;
+    }
+    .first {
+        color: #fff;
+        background-image: url(../imgs/home.jpg);
+        background-repeat: no-repeat;
+        height: initial;
+        width: 100%;
+        position: relative;
+    }
+    .first-p {
+        width: 100%;
+        margin-top: 20%;
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p {
+        font-size: 1.2em;
+        font-weight: 300;
+        width: 80%;
+        margin-left: 12%;
+        color: #000;
+    }
+    .progress,
+    .profile {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .offer {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .brown {
+        margin-top: 20%;
+        text-align: center;
+        background: #30282A;
+        height: 55vh;
+        color: #fff;
+    }
+    .hire {
+        font-size: 1.9em;
+        font-weight: 800;
+        margin-top: 6%;
+    }
+    .hiring {
+        border: 2.5px solid #757575;
+        background: transparent;
+        margin-top: 5%;
+        width: 50%;
+        font-size: 1.1em;
+        font-weight: 200;
+        text-transform: uppercase;
+        color: #757575;
+    }
+    /*
+    .flex-row,
+    .lind-second {
+        order: 1;
+        width: 100%;
+    }
+*/
+    .txtprjct {
+        margin-top: 15%;
+        text-align: justify;
+        font-size: 1.2em;
+    }
+    .card-small .content {
+        font-size: 1.2em;
+        padding: 0rem;
+    }
+    .byeNow {
+        font-size: 1.2em;
+    }
+    .formspree {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .blg {
+        width: 65%;
+        margin-left: 17%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .first-p {
+        width: 100%;
+        margin-top: 20%;
+        font-size: 3.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    .second-p,
+    .facts,
+    .service,
+    .prjctxt {
+        font-size: 1.7em;
+    }
+    .hire {
+        font-size: 2.6em;
+        font-weight: 800;
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .blg {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .hire {
+        font-size: 1.9em;
+        font-weight: 800;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .brown {
+        margin-top: 20%;
+        text-align: center;
+        background: #30282A;
+        height: 60vh;
+        color: #fff;
+    }
+    .hiring {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .nav-mobile {
+        display: block !important;
+    }
+}
+
+
+/*********MEDIA QUERY END**********/
